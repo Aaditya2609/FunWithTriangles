@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700;800&display=swap');
 :root
 {
   --black: #000000ff;
@@ -29,6 +29,7 @@ label {
     display: block;
     margin: auto;
     margin-top: 1rem;
+    font-weight: 600;
   }
 input
 {
@@ -66,15 +67,16 @@ nav
  background:linear-gradient(to right,var(--flickr-blue),var(--french-rose));
  margin:auto;
  max-width: 60%;
- height: 50px;
+ height: 30%;
  font-size: 20px;
  border-bottom-right-radius: 1rem;
  border-bottom-left-radius: 1rem;
 }
 .link
 {
+  font-weight: 600;
   display: inline-block;
-  margin: 12px 0px;
+  margin: 0.25rem 0.25rem;
   text-decoration: none;
   color: var(--white);
   font-family: 'Raleway', sans-serif;
@@ -83,7 +85,7 @@ nav
 .link-active
 {
  text-decoration: underline;
- font-weight: bold;
+ font-weight: 800;
 
 }
 button {
@@ -101,6 +103,7 @@ button {
   width:60%;
   margin: 1rem auto 0;
   border: 3px solid;
+  font-weight: 500;
   border-image: linear-gradient(to right,
  var(--cyan-process),var(--blue-crayola)) 1;
 }
@@ -108,4 +111,8 @@ button {
 {
   font-size: 50px;
 }
-  
+.output
+{
+  margin-top: 1rem;
+  font-weight: bold;
+}
