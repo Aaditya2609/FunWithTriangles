@@ -15,7 +15,7 @@ function clickHandler()
         else output.innerText="The angles cannot make a triangle😥😥";
 
     }
-    else output.innerText="Enter positive value for angles"
+    else output.innerText="Angles cannot be negative";
 }
 
 button.addEventListener("click",clickHandler);

@@ -9,6 +9,7 @@ function clickHandler()
     var Area=0.5*(+base.value*+height.value)
     output.innerText="The area of triangle is "+Area.toFixed(1)+" units²."
     }
+    else output.innerText="Base and Height cannot be negative."
    
 }
 
